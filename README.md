@@ -314,8 +314,4 @@ This project is built following the Spec-Kit Plus methodology.
 3. Update documentation as needed
 4. Ensure all tests pass before committing
 
----
 
-## 📝 Note on Original CLI App
-
-The original CLI application is available in `src/` directory for reference but is no longer actively maintained. The web application is the primary implementation.
