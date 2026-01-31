@@ -18,6 +18,9 @@ class Settings(BaseSettings):
     # Application
     debug: bool = True
     allowed_origins: str = "http://localhost:3000,http://127.0.0.1:3000"
+    
+    # Note: In production, set ALLOWED_ORIGINS to your Vercel domain(s)
+    # Example: ALLOWED_ORIGINS=https://your-app.vercel.app,https://your-app-git-main.vercel.app
 
     model_config = SettingsConfigDict(
         env_file=".env", 
